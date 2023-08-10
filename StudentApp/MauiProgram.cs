@@ -1,4 +1,9 @@
-﻿namespace StudentApp;
+﻿using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using DatabaseLibrary;
+using StudentApp.Models;
+
+namespace StudentApp;
 
 public static class MauiProgram
 {
@@ -13,6 +18,23 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
+		//builder.Services.AddSingleton<MainPage>();
+		builder.Services.AddDbContext<StudentDBContext>(options =>
+			options.UseSqlite($"Filename={GetDatabasePath()}", x => x.MigrationsAssembly(nameof(DatabaseLibrary))));
+
 		return builder.Build();
 	}
+
+    private static string GetDatabasePath()
+    {
+		var databasePath = string.Empty;
+		var databaseName = "Activity5.db3";
+
+		if(DeviceInfo.Platform == DevicePlatform.Android || DeviceInfo.Platform == DevicePlatform.WinUI)
+		{
+			databasePath = Path.Combine(FileSystem.AppDataDirectory, databaseName);
+		}
+		return databasePath;
+
+    }
 }

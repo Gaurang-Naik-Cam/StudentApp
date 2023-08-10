@@ -48,4 +48,42 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.10" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\DatabaseLibrary\DatabaseLibrary.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="AddCoursesPage.xaml.cs">
+	    <DependentUpon>AddCoursesPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="AddStudentsPage.xaml.cs">
+	    <DependentUpon>AddStudentsPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="ViewCoursesPage.xaml.cs">
+	    <DependentUpon>ViewCoursesPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="ViewStudentsPage.xaml.cs">
+	    <DependentUpon>ViewStudentsPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="AddCoursesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="AddStudentsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewCoursesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewStudentsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
