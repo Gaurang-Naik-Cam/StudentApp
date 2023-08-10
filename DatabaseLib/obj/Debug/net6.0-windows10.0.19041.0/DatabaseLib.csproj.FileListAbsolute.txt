@@ -1,0 +1,14 @@
+D:\Android Project\StudentApp\DatabaseLib\bin\Debug\net6.0-windows10.0.19041.0\DatabaseLib.deps.json
+D:\Android Project\StudentApp\DatabaseLib\bin\Debug\net6.0-windows10.0.19041.0\DatabaseLib.runtimeconfig.json
+D:\Android Project\StudentApp\DatabaseLib\bin\Debug\net6.0-windows10.0.19041.0\DatabaseLib.dll
+D:\Android Project\StudentApp\DatabaseLib\bin\Debug\net6.0-windows10.0.19041.0\DatabaseLib.pdb
+D:\Android Project\StudentApp\DatabaseLib\obj\Debug\net6.0-windows10.0.19041.0\DatabaseLib.csproj.AssemblyReference.cache
+D:\Android Project\StudentApp\DatabaseLib\obj\Debug\net6.0-windows10.0.19041.0\DatabaseLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Android Project\StudentApp\DatabaseLib\obj\Debug\net6.0-windows10.0.19041.0\DatabaseLib.AssemblyInfoInputs.cache
+D:\Android Project\StudentApp\DatabaseLib\obj\Debug\net6.0-windows10.0.19041.0\DatabaseLib.AssemblyInfo.cs
+D:\Android Project\StudentApp\DatabaseLib\obj\Debug\net6.0-windows10.0.19041.0\DatabaseLib.csproj.CoreCompileInputs.cache
+D:\Android Project\StudentApp\DatabaseLib\obj\Debug\net6.0-windows10.0.19041.0\DatabaseLib.dll
+D:\Android Project\StudentApp\DatabaseLib\obj\Debug\net6.0-windows10.0.19041.0\refint\DatabaseLib.dll
+D:\Android Project\StudentApp\DatabaseLib\obj\Debug\net6.0-windows10.0.19041.0\DatabaseLib.pdb
+D:\Android Project\StudentApp\DatabaseLib\obj\Debug\net6.0-windows10.0.19041.0\DatabaseLib.genruntimeconfig.cache
+D:\Android Project\StudentApp\DatabaseLib\obj\Debug\net6.0-windows10.0.19041.0\ref\DatabaseLib.dll
