@@ -6,17 +6,17 @@
     <StackLayout Margin="20" Spacing="10" VerticalOptions="StartAndExpand">
         <Label x:Name="lblStudentId" IsVisible="true"></Label>
         
-        <Label Text="Name" />
-        <Entry x:Name="txtbxName" Placeholder="Student Name"/>
+        <Label Text="Name" FontAttributes="Bold" />
+        <Entry x:Name="txtbxName" Placeholder="Student Name" Text="{Binding Name}"/>
 
-        <Label Text="Student Number" />
-        <Entry x:Name="txtbxStudentNumber" Placeholder="Student Number"/>
+        <Label Text="Student Number" FontAttributes="Bold"/>
+        <Entry x:Name="txtbxStudentNumber" Placeholder="Student Number" Text="{Binding StudentNumber}}"/>
 
-        <Label Text="Address" />
-        <Entry x:Name="txtbxStudentAddress" Placeholder="Address"/>
+        <Label Text="Address"  FontAttributes="Bold" />
+        <Entry x:Name="txtbxStudentAddress" Placeholder="Address" Text="{Binding Address}}" />
 
-        <Label x:Name ="lblSelectedItem" Text="Selected Text" />
-        <Picker x:Name="pcrCourses" Title="Select a Course"></Picker> 
+        <Label x:Name ="lblSelectedItem" Text="{Binding CourseName}"  FontAttributes="Bold" />
+        <Picker x:Name="pcrCourses" Title="Select a Course" SelectedIndexChanged="OnDropDownChanged" ></Picker> 
 
         <Button Clicked="OnSaveClicked" Text="Save"/>
         <Button Clicked="OnDeleteClicked" Text="Delete"/>

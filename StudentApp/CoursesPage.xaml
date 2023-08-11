@@ -4,13 +4,13 @@
              x:Class="StudentApp.Courses"
              Title="Add / Update Courses">
     <StackLayout Margin="20" Spacing="10" VerticalOptions="StartAndExpand">
-        <Label Text="Course Name" />
+        <Label Text="Course Name"  FontAttributes="Bold" />
         <Entry x:Name="txtbxCourseName" Text="{Binding CourseName}" />
 
-        <Label Text="Course Code" />
+        <Label Text="Course Code"  FontAttributes="Bold" />
         <Entry x:Name="txtbxCourseCode" Text="{Binding CourseCode}"/>
 
-        <Label Text="Course Co-ordinator" />
+        <Label Text="Course Co-ordinator"  FontAttributes="Bold" />
         <Entry x:Name="txtbxCourseCoordinator" Text="{Binding CourseCoordinator}"/>
 
 

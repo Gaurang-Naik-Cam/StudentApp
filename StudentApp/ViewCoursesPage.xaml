@@ -23,7 +23,7 @@
                         Margin="20,0,0,0"
                         HorizontalOptions="FillAndExpand"
                         Orientation="Horizontal">
-                        <Label HorizontalOptions="StartAndExpand" Text="{Binding CourseName}" />
+                        <Label HorizontalOptions="StartAndExpand" Text="{Binding CourseName}"  FontAttributes="Bold" />
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>
