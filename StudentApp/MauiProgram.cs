@@ -19,8 +19,8 @@ public static class MauiProgram
 			});
 
 		//builder.Services.AddSingleton<MainPage>();
-		builder.Services.AddDbContext<StudentDBContext>(options =>
-			options.UseSqlite($"Filename={GetDatabasePath()}", x => x.MigrationsAssembly(nameof(DatabaseLibrary))));
+		//builder.Services.AddDbContext<StudentDBContext>(options =>
+		//	options.UseSqlite($"Filename={GetDatabasePath()}", x => x.MigrationsAssembly(nameof(DatabaseLibrary))));
 
 		return builder.Build();
 	}

@@ -4023,7 +4023,7 @@ application_config:
 
 	.type	.L.autostr.8, @object
 .L.autostr.8:
-	.asciz	"2d7bc80b-53a4-444c-b9aa-73c25b3a86c1"
+	.asciz	"24505328-4906-4122-ab39-1795d1ebcbfc"
 	.size	.L.autostr.8, 37
 
 	.type	.L.autostr.9, @object

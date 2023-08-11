@@ -8,14 +8,18 @@ public partial class Courses : ContentPage
 	public Courses()
 	{
 		InitializeComponent();
+        
 	}
+
+    
 
     private async void OnSaveClicked(object sender, EventArgs e)
     {
-        var _course = new Course();
-        _course.CourseName = txtbxCourseName.Text;
-        _course.CourseCode = txtbxCourseCode.Text;
-        _course.CourseCoordinator = txtbxCourseCoordinator.Text;
+        //var _course = new Course();
+        //_course.CourseName = txtbxCourseName.Text;
+        //_course.CourseCode = txtbxCourseCode.Text;
+        //_course.CourseCoordinator = txtbxCourseCoordinator.Text;
+        var _course = (Course)BindingContext;
         StudentAppDatabase database = await StudentAppDatabase.Instance;
         await database.SaveCourseAsync(_course);
         await Navigation.PopAsync();
@@ -23,10 +27,10 @@ public partial class Courses : ContentPage
 
     private async void OnDeleteClicked(object sender, EventArgs e)
     {
-        var _course = new Course();
-        _course.CourseName = txtbxCourseName.Text;
-        _course.CourseCode = txtbxCourseCode.Text;
-        _course.CourseCoordinator = txtbxCourseCoordinator.Text;
+        var _course = (Course)BindingContext;
+        //_course.CourseName = txtbxCourseName.Text;
+        //_course.CourseCode = txtbxCourseCode.Text;
+        //_course.CourseCoordinator = txtbxCourseCoordinator.Text;
         StudentAppDatabase database = await StudentAppDatabase.Instance;
         await database.DeleteCourseAsync(_course);
         await Navigation.PopAsync();

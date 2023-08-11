@@ -6,22 +6,14 @@
     xmlns:local="clr-namespace:StudentApp"
     Shell.FlyoutBehavior="Flyout">
 
-    <ShellContent Title="Add Courses"
-                 Icon="cat.png"
-                 ContentTemplate="{DataTemplate local:Courses}" />
-    <ShellContent Title="Add Students"
-                 Icon="dog.png"
-                 ContentTemplate="{DataTemplate local:Students}" />
-    <!--<ShellContent Title="View Courses"
-                 Icon="dog.png"
-                 ContentTemplate="{DataTemplate local:ViewCourses}" />
-    <ShellContent Title="View Students"
-                 Icon="dog.png"
-                 ContentTemplate="{DataTemplate local:ViewStudents}" />-->
+    <ShellContent
+        Title="Courses"
+        ContentTemplate="{DataTemplate local:ViewCourses}"
+         />
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Students"
+        ContentTemplate="{DataTemplate local:ViewStudents}"
+         />
 
 </Shell>

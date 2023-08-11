@@ -976,3 +976,6 @@ D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets
 D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets\SQLiteNetExtensions.dll
 D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets\SQLiteNetExtensions.pdb
 D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\resizetizer\r\drawable\add.png
+D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\resizetizer\r\drawable\adduser.png
+D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\resizetizer\r\drawable\view.png

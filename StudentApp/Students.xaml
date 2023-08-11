@@ -12,6 +12,9 @@
         <Label Text="Student Number" />
         <Entry x:Name="txtbxStudentNumber" Placeholder="Student Number"/>
 
+        <Label Text="Address" />
+        <Entry x:Name="txtbxStudentAddress" Placeholder="Address"/>
+
         <Label x:Name ="lblSelectedItem" Text="Selected Text" />
         <Picker x:Name="pcrCourses" Title="Select a Course"></Picker> 
 

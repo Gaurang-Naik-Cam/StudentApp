@@ -5,13 +5,13 @@
              Title="Add / Update Courses">
     <StackLayout Margin="20" Spacing="10" VerticalOptions="StartAndExpand">
         <Label Text="Course Name" />
-        <Entry x:Name="txtbxCourseName" />
+        <Entry x:Name="txtbxCourseName" Text="{Binding CourseName}" />
 
         <Label Text="Course Code" />
-        <Entry x:Name="txtbxCourseCode" Text=""/>
+        <Entry x:Name="txtbxCourseCode" Text="{Binding CourseCode}"/>
 
         <Label Text="Course Co-ordinator" />
-        <Entry x:Name="txtbxCourseCoordinator" Text=""/>
+        <Entry x:Name="txtbxCourseCoordinator" Text="{Binding CourseCoordinator}"/>
 
 
         <Button Clicked="OnSaveClicked" Text="Save"/>

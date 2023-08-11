@@ -15,5 +15,18 @@ namespace StudentApp.Models
         public string StudentNumber { get; set; }
         public string Address { get; set; }
         public string CourseName { get; set; }
+        //[Ignore]
+        //public List<Courses> Courses {
+        //    get { 
+                
+                
+            
+        //    }; 
+        //}
+
+        //public Student()
+        //{
+
+        //}
     }
 }
