@@ -50,6 +50,12 @@
 
 	<ItemGroup>
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.10" />
+	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+	  <PackageReference Include="SQLiteNetExtensions" Version="2.1.0" />
+	  <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.5" />
+	  <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
+	  <PackageReference Include="SQLitePCLRaw.core" Version="2.1.5" />
+	  <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.5" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -57,11 +63,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="AddCoursesPage.xaml.cs">
-	    <DependentUpon>AddCoursesPage.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="AddStudentsPage.xaml.cs">
-	    <DependentUpon>AddStudentsPage.xaml</DependentUpon>
+	  <Compile Update="CoursesPage.xaml.cs">
+	    <DependentUpon>CoursesPage.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="ViewCoursesPage.xaml.cs">
 	    <DependentUpon>ViewCoursesPage.xaml</DependentUpon>
@@ -72,10 +75,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="AddCoursesPage.xaml">
+	  <MauiXaml Update="CoursesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="AddStudentsPage.xaml">
+	  <MauiXaml Update="Students.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ViewCoursesPage.xaml">

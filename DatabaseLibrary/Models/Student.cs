@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace DatabaseLibrary.Models
 {
-    public class Student
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string StudentNumber { get; set; }
-        public string Address { get; set; }
-        public List<Course> Courses { get; set; }
-    }
+    //public class Student
+    //{
+    //    public int Id { get; set; }
+    //    public string Name { get; set; }
+    //    public string StudentNumber { get; set; }
+    //    public string Address { get; set; }
+    //    public List<Course> Courses { get; set; }
+    //}
 }

@@ -8,10 +8,10 @@
     <DefaultDevice>pixel_5_-_api_28</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="AddCoursesPage.xaml">
+    <MauiXaml Update="CoursesPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="AddStudentsPage.xaml">
+    <MauiXaml Update="Students.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="ViewCoursesPage.xaml">

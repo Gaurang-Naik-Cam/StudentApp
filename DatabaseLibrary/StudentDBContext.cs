@@ -11,21 +11,21 @@ namespace StudentApp.Models
     public class StudentDBContext : DbContext
     {
 
-        public StudentDBContext()
-        {
+        //public StudentDBContext()
+        //{
 
-        }
+        //}
 
-        public StudentDBContext(DbContextOptions<StudentDBContext> options) : base(options)
-        {
-            Database.Migrate();
-        }
+        //public StudentDBContext(DbContextOptions<StudentDBContext> options) : base(options)
+        //{
+        //    Database.Migrate();
+        //}
 
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlite();
+        //protected override void OnConfiguring(DbContextOptionsBuilder options)
+        //    => options.UseSqlite();
 
-        public DbSet<Student> Students { get; set; }
-        public DbSet<Course> Courses { get; set; }
+        //public DbSet<Student> Students { get; set; }
+        //public DbSet<Course> Courses { get; set; }
 
     }
 }

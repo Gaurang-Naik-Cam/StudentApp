@@ -971,3 +971,8 @@ D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets
 D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets\System.Xml.dll
+D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets\Newtonsoft.Json.dll
+D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets\SQLite-net.dll
+D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets\SQLiteNetExtensions.dll
+D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets\SQLiteNetExtensions.pdb
+D:\Android Project\StudentApp\StudentApp\obj\Debug\net6.0-android\android\assets\SQLitePCLRaw.provider.dynamic_cdecl.dll

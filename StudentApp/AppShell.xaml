@@ -8,16 +8,16 @@
 
     <ShellContent Title="Add Courses"
                  Icon="cat.png"
-                 ContentTemplate="{DataTemplate local:AddCourses}" />
+                 ContentTemplate="{DataTemplate local:Courses}" />
     <ShellContent Title="Add Students"
                  Icon="dog.png"
-                 ContentTemplate="{DataTemplate local:AddStudents}" />
-    <ShellContent Title="View Courses"
+                 ContentTemplate="{DataTemplate local:Students}" />
+    <!--<ShellContent Title="View Courses"
                  Icon="dog.png"
                  ContentTemplate="{DataTemplate local:ViewCourses}" />
     <ShellContent Title="View Students"
                  Icon="dog.png"
-                 ContentTemplate="{DataTemplate local:ViewStudents}" />
+                 ContentTemplate="{DataTemplate local:ViewStudents}" />-->
 
     <ShellContent
         Title="Home"
